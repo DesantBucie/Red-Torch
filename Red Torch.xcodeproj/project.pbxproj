@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC5243802780953F00355CA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC52437F2780953F00355CA9 /* AppDelegate.swift */; };
+		FC5243822780953F00355CA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5243812780953F00355CA9 /* SceneDelegate.swift */; };
+		FC5243842780953F00355CA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5243832780953F00355CA9 /* ViewController.swift */; };
+		FC5243872780953F00355CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5243852780953F00355CA9 /* Main.storyboard */; };
+		FC5243892780954000355CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5243882780954000355CA9 /* Assets.xcassets */; };
+		FC52438C2780954000355CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC52438A2780954000355CA9 /* LaunchScreen.storyboard */; };
+		FC5243972780954000355CA9 /* Red_TorchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5243962780954000355CA9 /* Red_TorchTests.swift */; };
+		FC5243A12780954000355CA9 /* Red_TorchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5243A02780954000355CA9 /* Red_TorchUITests.swift */; };
+		FC5243A32780954000355CA9 /* Red_TorchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5243A22780954000355CA9 /* Red_TorchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC5243932780954000355CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5243742780953F00355CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC52437B2780953F00355CA9;
+			remoteInfo = "Red Torch";
+		};
+		FC52439D2780954000355CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5243742780953F00355CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC52437B2780953F00355CA9;
+			remoteInfo = "Red Torch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC52437C2780953F00355CA9 /* Red Torch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red Torch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC52437F2780953F00355CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC5243812780953F00355CA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC5243832780953F00355CA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC5243862780953F00355CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC5243882780954000355CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC52438B2780954000355CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC52438D2780954000355CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5243922780954000355CA9 /* Red TorchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Red TorchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5243962780954000355CA9 /* Red_TorchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_TorchTests.swift; sourceTree = "<group>"; };
+		FC52439C2780954000355CA9 /* Red TorchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Red TorchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5243A02780954000355CA9 /* Red_TorchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_TorchUITests.swift; sourceTree = "<group>"; };
+		FC5243A22780954000355CA9 /* Red_TorchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_TorchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5243792780953F00355CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC52438F2780954000355CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5243992780954000355CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC5243732780953F00355CA9 = {
+			isa = PBXGroup;
+			children = (
+				FC52437E2780953F00355CA9 /* Red Torch */,
+				FC5243952780954000355CA9 /* Red TorchTests */,
+				FC52439F2780954000355CA9 /* Red TorchUITests */,
+				FC52437D2780953F00355CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC52437D2780953F00355CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC52437C2780953F00355CA9 /* Red Torch.app */,
+				FC5243922780954000355CA9 /* Red TorchTests.xctest */,
+				FC52439C2780954000355CA9 /* Red TorchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC52437E2780953F00355CA9 /* Red Torch */ = {
+			isa = PBXGroup;
+			children = (
+				FC52437F2780953F00355CA9 /* AppDelegate.swift */,
+				FC5243812780953F00355CA9 /* SceneDelegate.swift */,
+				FC5243832780953F00355CA9 /* ViewController.swift */,
+				FC5243852780953F00355CA9 /* Main.storyboard */,
+				FC5243882780954000355CA9 /* Assets.xcassets */,
+				FC52438A2780954000355CA9 /* LaunchScreen.storyboard */,
+				FC52438D2780954000355CA9 /* Info.plist */,
+			);
+			path = "Red Torch";
+			sourceTree = "<group>";
+		};
+		FC5243952780954000355CA9 /* Red TorchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5243962780954000355CA9 /* Red_TorchTests.swift */,
+			);
+			path = "Red TorchTests";
+			sourceTree = "<group>";
+		};
+		FC52439F2780954000355CA9 /* Red TorchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5243A02780954000355CA9 /* Red_TorchUITests.swift */,
+				FC5243A22780954000355CA9 /* Red_TorchUITestsLaunchTests.swift */,
+			);
+			path = "Red TorchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC52437B2780953F00355CA9 /* Red Torch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5243A62780954000355CA9 /* Build configuration list for PBXNativeTarget "Red Torch" */;
+			buildPhases = (
+				FC5243782780953F00355CA9 /* Sources */,
+				FC5243792780953F00355CA9 /* Frameworks */,
+				FC52437A2780953F00355CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Red Torch";
+			productName = "Red Torch";
+			productReference = FC52437C2780953F00355CA9 /* Red Torch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC5243912780954000355CA9 /* Red TorchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5243A92780954000355CA9 /* Build configuration list for PBXNativeTarget "Red TorchTests" */;
+			buildPhases = (
+				FC52438E2780954000355CA9 /* Sources */,
+				FC52438F2780954000355CA9 /* Frameworks */,
+				FC5243902780954000355CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5243942780954000355CA9 /* PBXTargetDependency */,
+			);
+			name = "Red TorchTests";
+			productName = "Red TorchTests";
+			productReference = FC5243922780954000355CA9 /* Red TorchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC52439B2780954000355CA9 /* Red TorchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5243AC2780954000355CA9 /* Build configuration list for PBXNativeTarget "Red TorchUITests" */;
+			buildPhases = (
+				FC5243982780954000355CA9 /* Sources */,
+				FC5243992780954000355CA9 /* Frameworks */,
+				FC52439A2780954000355CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC52439E2780954000355CA9 /* PBXTargetDependency */,
+			);
+			name = "Red TorchUITests";
+			productName = "Red TorchUITests";
+			productReference = FC52439C2780954000355CA9 /* Red TorchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC5243742780953F00355CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FC52437B2780953F00355CA9 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					FC5243912780954000355CA9 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = FC52437B2780953F00355CA9;
+					};
+					FC52439B2780954000355CA9 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = FC52437B2780953F00355CA9;
+					};
+				};
+			};
+			buildConfigurationList = FC5243772780953F00355CA9 /* Build configuration list for PBXProject "Red Torch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC5243732780953F00355CA9;
+			productRefGroup = FC52437D2780953F00355CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC52437B2780953F00355CA9 /* Red Torch */,
+				FC5243912780954000355CA9 /* Red TorchTests */,
+				FC52439B2780954000355CA9 /* Red TorchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC52437A2780953F00355CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC52438C2780954000355CA9 /* LaunchScreen.storyboard in Resources */,
+				FC5243892780954000355CA9 /* Assets.xcassets in Resources */,
+				FC5243872780953F00355CA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5243902780954000355CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC52439A2780954000355CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5243782780953F00355CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5243842780953F00355CA9 /* ViewController.swift in Sources */,
+				FC5243802780953F00355CA9 /* AppDelegate.swift in Sources */,
+				FC5243822780953F00355CA9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC52438E2780954000355CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5243972780954000355CA9 /* Red_TorchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5243982780954000355CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5243A12780954000355CA9 /* Red_TorchUITests.swift in Sources */,
+				FC5243A32780954000355CA9 /* Red_TorchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC5243942780954000355CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC52437B2780953F00355CA9 /* Red Torch */;
+			targetProxy = FC5243932780954000355CA9 /* PBXContainerItemProxy */;
+		};
+		FC52439E2780954000355CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC52437B2780953F00355CA9 /* Red Torch */;
+			targetProxy = FC52439D2780954000355CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC5243852780953F00355CA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5243862780953F00355CA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC52438A2780954000355CA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC52438B2780954000355CA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC5243A42780954000355CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC5243A52780954000355CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5243A72780954000355CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Red Torch/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desantbucie.Red-Torch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC5243A82780954000355CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Red Torch/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desantbucie.Red-Torch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC5243AA2780954000355CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desantbucie.Red-TorchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Red Torch.app/Red Torch";
+			};
+			name = Debug;
+		};
+		FC5243AB2780954000355CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desantbucie.Red-TorchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Red Torch.app/Red Torch";
+			};
+			name = Release;
+		};
+		FC5243AD2780954000355CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desantbucie.Red-TorchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Red Torch";
+			};
+			name = Debug;
+		};
+		FC5243AE2780954000355CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.desantbucie.Red-TorchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Red Torch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5243772780953F00355CA9 /* Build configuration list for PBXProject "Red Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5243A42780954000355CA9 /* Debug */,
+				FC5243A52780954000355CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5243A62780954000355CA9 /* Build configuration list for PBXNativeTarget "Red Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5243A72780954000355CA9 /* Debug */,
+				FC5243A82780954000355CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5243A92780954000355CA9 /* Build configuration list for PBXNativeTarget "Red TorchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5243AA2780954000355CA9 /* Debug */,
+				FC5243AB2780954000355CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5243AC2780954000355CA9 /* Build configuration list for PBXNativeTarget "Red TorchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5243AD2780954000355CA9 /* Debug */,
+				FC5243AE2780954000355CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC5243742780953F00355CA9 /* Project object */;
+}
